@@ -1,10 +1,10 @@
 {
     "autoload": {
         "psr-4": {
-            "App\\":"App"
+            "Api\\":"api"
         },
         "files": [
-        	"config.php"
+        	"../config/database.php"
         ]
     },
     "require": {

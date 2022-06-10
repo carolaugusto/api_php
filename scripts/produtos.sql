@@ -1,0 +1,3 @@
+CREATE TABLE `agrow`.`produto` ( `id` INT NOT NULL AUTO_INCREMENT , `nome_produto` VARCHAR(70) NOT NULL , `quantidade` VARCHAR(20) NOT NULL , `preco` REAL(7) NOT NULL , `data_plantio` DATE NOT NULL , `data_colheita` DATE NOT NULL , `validade_dias` INT(3) NOT NULL , `categoria` VARCHAR(50) NOT NULL , `tecnica` VARCHAR(60) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+INSERT INTO `produto` (`id`, `nome_produto`, `quantidade`, `preco`, `data_plantio`, `data_colheita`, `validade_dias`, `categoria`, `tecnica`) VALUES (NULL, 'Morango', '10 kg', '6.99', '04/04/2022', '01/06/2022', '8', 'Fruta', 'Rotação de cultura')
